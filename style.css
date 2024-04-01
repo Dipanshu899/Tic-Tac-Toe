@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+    background: linear-gradient(to bottom right, #4caf50, #2196f3);
+    color: white;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border: 1px solid #999;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+    /* Text color for cells */
+}
+
+.status {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
